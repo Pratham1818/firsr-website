@@ -1,0 +1,56 @@
+body{
+    border: 2px solid rgb(185, 179, 179);
+    padding: 5px 10px 10px 5px;
+    margin: 5px;
+    background-color: honeydew;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center;
+    border: 1px solid rgba(83, 79, 79, 0.295);
+    padding: 5px;
+    margin-top: 1%;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin: 10px;
+}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgba(58, 57, 57, 0.295);
+    padding: 2px 30px 10px 20px;
+    margin: 10px;
+    line-height: 30px;
+    text-shadow: 0.5px 0px black;
+    border-radius: 5px;
+}
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding : 5px;
+    background-color:white;
+    resize: none;
+}
+
+input[type='submit']{
+    width: 100%;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800; 
+    letter-spacing: 10px;
+    font-size: 25px;  
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: rgba(64, 224, 208, 0.521);
+}
+.dev{
+    text-align: right;
+    margin: 10px;
+    letter-spacing: 2px;
+}
